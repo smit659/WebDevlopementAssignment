@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: column;
+            /* align-items: center; */
+            justify-content: center;}
+
+            div{
+                margin: 20px auto;
+            }
+       
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <form action="/" method="POST">
+            <h1>STUDENT REGISTRATION FORM</h1>
+        <div >  
+        <label for="FName">First Name:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" name="Name" id="FName">
+    </div>
+    <div >  
+        <label for="MName">Middle Name:</label>
+        <input type="text" name="Name" id="MName">
+    </div>
+        <label for="LName">Last Name: &nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" name="Name" id="LName">
+    </div>
+    <div>  
+        <label for="College">College Name:</label>
+       <select name="clg" id="College">
+
+        <option value="MSU">MSU</option>
+        <option value="NIRMA">NIRMA</option>
+        <option value="DDU">DDU</option>
+        <option value="IIT B">IIT B</option>
+       </select>
+    </div>
+    <div>  
+        <label  for="ch">HOBBY:&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="checkbox" name="Name" id="ch">CRICKET
+        <input type="checkbox" name="Name" id="ch">MOVIES
+        <input type="checkbox" name="Name" id="ch">TRAVEL
+    </div>
+   
+    <div>  
+        <label for="Names">Phone NO:&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;</label>
+        <input type="number" name="Name" id="Names">
+    </div>
+    <div>
+        Email &nbsp;  <input style="margin-left: 50px;" type="email" name="email" >
+    </div>
+    <div>
+        
+     Gender: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="gen" id="gen"><label for="gen">Male</label> 
+     <input type="radio" name="gen" id="gesn"><label for="gesn">Female</label> 
+    </div>
+    <div>
+        City <input style="margin-left: 60px;" type="text">
+        
+    </div>
+    <div>
+        State <input style="margin-left: 60px;" type="text">
+    </div>
+    <div>
+        Country <input style="margin-left: 40px;" type="text">
+    </div>
+    <div>  
+        <label for="ADD">Address: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <textarea name="d" id="ADD" cols="30" rows="05"></textarea>
+    </div>
+   <div> <input type="submit" value="submit"> <input type="reset" value="reset"></div>
+  </div>
+  </form>
+</body>
+</html>
